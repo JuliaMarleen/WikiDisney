@@ -22,11 +22,6 @@ navbar ul li a {
     padding: 8px 16px;
     text-decoration: none;
 }
- 
-navbar ul li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
 
 navbar ul li a:hover:not(.active) {
     background-color: #555;
