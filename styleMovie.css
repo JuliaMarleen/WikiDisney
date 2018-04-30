@@ -69,12 +69,21 @@ h1{
     /*border: 1px solid black;*/
     overflow: hidden; /* will contain if #first is longer than #second */
 }
-#left {
+#Plek1 {
     /*width: 300px;*/
     float:left;
     /*border: 1px solid red; */
 }
-#right {
+#Plek2 {
+    /*border: 1px solid green;*/
+    float: left;
+    width: 300px;
+    padding-left: 30px;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#Plek3 {
+    float:left;
     /*border: 1px solid green;*/
     width: 300px;
     padding-left: 30px;
