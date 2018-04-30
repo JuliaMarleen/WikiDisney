@@ -4,12 +4,12 @@ body{
     color: #0d4c63;
 }
 
-navbar ul {
+navbar ul { /* navbar background */
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #f1f1f1;
+    background-color: #1a7699;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -51,21 +51,26 @@ h1{
     color: #3d89a5;
 }
 
-.textbox{
-    margin-top: 50px;
+.page{ /* The whole page except the navbar */
     margin-left: 20%;
+    padding-top: 50px;
+}
+
+.textbox{ /* All text devided by subject*/
     width: 70%;
     float: left;
 }
 
-.text1{
-    width: 60%;
+.text1{  /* All text devided by part */
+    width: 90%;
     float: left;
 }
 
-.alice{
-    width: auto;
-    height: 200px;
-    margin-left: 30px;
+.aliceImg{ /* All images */
+    width: 200px;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
     float: left;
 }
