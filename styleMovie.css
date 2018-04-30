@@ -63,3 +63,20 @@ h1{
     width: 80%;
     float: left;
 }
+
+#wrapper {
+    /*width: 500px;*/
+    /*border: 1px solid black;*/
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#left {
+    /*width: 300px;*/
+    float:left;
+    /*border: 1px solid red; */
+}
+#right {
+    /*border: 1px solid green;*/
+    width: 300px;
+    padding-left: 30px;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
