@@ -48,7 +48,7 @@ navbar ul li a:hover:not(.active) {
 }
 
 h1{
-    color: #3d89a5;
+    color: black;
 }
 
 .page{ /* The whole page except the navbar */

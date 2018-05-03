@@ -1,7 +1,7 @@
 body{
     margin: 0;
-    background-color: aqua;  /* the color is blue*/ 
-    color: black;
+    background-color: #42c5f4;  /* the color is blue*/ 
+    color: #0d4c63;
 }
 
 navbar ul {
@@ -9,7 +9,7 @@ navbar ul {
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #f1f1f1;
+    background-color: #1a7699;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -21,11 +21,6 @@ navbar ul li a { /* Words in Navbar */
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-}
- 
-navbar ul li a.active {
-    background-color: #4CAF50;
-    color: white;
 }
 
 navbar ul li a:hover:not(.active) {
@@ -53,7 +48,7 @@ navbar ul li a:hover:not(.active) {
 }
 
 h1{
-    color: Black;
+    color: black;
     text-shadow: 0.1;
 }
 
